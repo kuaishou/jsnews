@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+/*公用属性*/
+.biude{
+    display:block;
+    height: 30px;
+    width: 132px;
+    margin: 40px auto;
+    background-color: #ff6239;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.banner{
+    height: 380px;
+    width: 100%;
+    background-color: #03adea;
+}
+
+.boo{
+    width: 100%;
+
+}
+/*概况*/
+.tuijian .logo{
+    width: 144px;
+    height: 116px;
+    margin: 40px auto 0;
+
+}
+.tuijian .jiamo{
+    width: 844px;
+    height: 44px;
+    margin: 40px auto 0;
+}
+.tuijian .jiamo a{
+    display: block;
+    cursor:auto;
+    height: 44px;
+    text-decoration: none;
+    background-color: #080808;
+    width: 844px;
+    background-color: #f8f8f8;
+    border: 1px solid #d1d1d1;
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+/*一日游开始*/
+.tuijian .oneDay{
+    height: 266px;
+    width: 1120px;
+    border: 1px solid #b1b1b1;
+    padding: 20px;
+    margin-top: 30px;
+}
+.tuijian .oneDay .day-Box{
+    float: left;
+    height: 264px;
+    width: 660px;
+}
+
+.tuijian .oneDay .left{
+    float: left;
+    height: 164px;
+    width: 16px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height:16px;
+    padding: 50px 20px;
+    background-color: #3c89b7;
+}
+.tuijian .oneDay .right{
+    float: left;
+    height: 264px;
+    width: 192px;
+    margin-left: 10px;
+}
+.tuijian .oneDay .right img{
+    height: 126px;
+    width: 192px;
+}
+.tuijian .oneDay .right .two{
+    margin-top: 12px;
+}
+
+.tuijian .oneDay .mid{
+    height: 264px;
+    width: 400px;
+    float: left;
+}
+
+
+.tuijian .oneDay .day-News{
+    float: left;
+    width: 420px;
+    height: 264px;
+    margin-left: 26px;
+    }
+
+.tuijian .oneDay .day-News h4{
+    font-family: Microsoft Yahei;
+    color: #666666;
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+.tuijian .oneDay .day-News span{
+    display: block;
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 16px;
+    margin: 20px 0;
+
+
+}
+.tuijian .oneDay .day-News p{
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 14px;
+    line-height: 26px;
+    height: 80px;
+
+}
+.tuijian .oneDay .day-News a{
+    display:block;
+    height: 26px;
+    width:88px;
+    background-color: #03adea;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 13px;
+    margin-top: 44px;
+    margin-left:290px;
+}
+
+/*二日游开始*/
+.tuijian .twoDay{
+    height: 266px;
+    width: 1120px;
+    border: 1px solid #b1b1b1;
+    padding: 20px;
+    margin-top: 30px;
+}
+.tuijian .twoDay .two-Box{
+    float: left;
+    height: 264px;
+    width: 456px;
+}
+
+.tuijian .twoDay .two-left{
+    float: left;
+    height: 164px;
+    width: 16px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height:16px;
+    padding: 50px 20px;
+    background-color: #3c89b7;
+}
+.tuijian .twoDay .two-right{
+    height: 264px;
+    width: 400px;
+    float: left;
+}
+
+
+.tuijian .twoDay .two-News{
+    float: left;
+    width: 630px;
+    height: 264px;
+    margin-left: 30px;
+}
+
+.tuijian .twoDay .two-News h4{
+    font-family: Microsoft Yahei;
+    color: #666666;
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+.tuijian .twoDay .two-News span{
+    display: block;
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 16px;
+    margin: 20px 0;
+
+
+}
+.tuijian .twoDay .two-News p{
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 14px;
+    line-height: 26px;
+    height: 80px;
+
+}
+.tuijian .twoDay .two-News a{
+    display:block;
+    height: 26px;
+    width:88px;
+    background-color: #03adea;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 13px;
+    margin-top: 44px;
+    margin-left:496px;
+}

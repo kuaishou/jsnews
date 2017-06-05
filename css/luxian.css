@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/*公用属性*/
+.biude{
+    display:block;
+    height: 30px;
+    width: 132px;
+    margin: 40px auto;
+    background-color: #ff6239;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.banner{
+    height: 380px;
+    width: 100%;
+    background-color: #03adea;
+}
+
+
+/*旅游路线详情*/
+.yuding{
+    margin-top: 40px;
+    height: 280px;
+    width: 1160px;
+    background: url('../imgs/3luxian/5_03.png') 0 0 no-repeat;
+    border: 1px solid black;
+}
+.yuding a{
+    display: inline-block;
+    float: right;
+    margin-top: 240px;
+    margin-right: 40px;
+    width: 90px;
+    height: 26px;
+    line-height: 26px;
+    background-color: #e3496d;
+    border-radius: 13px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+}
+.guihua .guihua-one{
+    margin-top: 40px;
+    height: 220px;
+}
+.guihua .guihua-one .left{
+    width: 500px;
+}
+.guihua .guihua-one .img-1{
+    float: left;
+    margin-left: 100px;
+}
+.guihua .guihua-one .img-2{
+    float: left;
+    height: 220px;
+    width: 160px;
+}
+.guihua .guihua-one .content{
+    float: left;
+    width: 460px;
+}
+.guihua .guihua-one .content h4{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 16px;
+}
+.guihua .guihua-one .content p {
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+
+/*规划二介绍*/
+.guihua .guihua-two{
+    margin-top: 40px;
+    height: 220px;
+}
+.guihua .guihua-two .left{
+    float: left;
+    height: 220px;
+    width: 500px;
+}
+.guihua .guihua-two .content{
+    float: right;
+    width: 460px;
+    margin-left: 0px;
+}
+.guihua .guihua-two .content h4{
+    height: 30px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 16px;
+    text-align: right;
+}
+.guihua .guihua-two .content p {
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 14px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+.guihua .guihua-two .img-1{
+    float: left;
+    width: 498px;
+}
+.guihua .guihua-two .img-1 img{
+    float: left;
+    height: 220px;
+    width: 160px;
+    margin-left: 2px;
+}
+.guihua .guihua-two .img-2{
+    float: left;
+    height: 220px;
+    width: 160px;
+}
+
+/*规划三介绍*/
+.guihua .guihua-three{
+    margin-top: 40px;
+    height: 220px;
+}
+.guihua .guihua-three .left{
+    width: 500px;
+    float: left;
+}
+.guihua .guihua-three .img-1{
+    float: right;
+    margin-left: 2px;
+}
+.guihua .guihua-three .img-2{
+    float: left;
+    height: 220px;
+    width: 160px;
+}
+.guihua .guihua-three .content{
+    float: left;
+    width: 460px;
+}
+.guihua .guihua-three .content h4{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 16px;
+}
+.guihua .guihua-three .content p {
+    font-family: Microsoft Yahei;
+    color: #666666;
+    font-size: 14px;
+    line-height: 30px;
+
+}

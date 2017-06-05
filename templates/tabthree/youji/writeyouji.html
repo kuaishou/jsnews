@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <title> 吉首市旅游官网 </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="bootstrap-responsive.min.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.hotkeys.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="bootstrap-wysiwyg.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="writeyouji.css">
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+    </style>
+</head>
+
+<body>
+<header id="header">
+
+    <nav class="container" id="nav">
+        <div class="logo"><a href="../../../index.html"><img src="../../../imgs/shouye/logotop.png" alt=""/></a></div>
+        <div class="nav-tabs">
+            <a href="../../../index.html">首页</a>
+            <span>走进吉首</span>
+            <span>畅玩吉首</span>
+            <span>旅游服务</span>
+            <span>吉首攻略</span>
+            <span>在线旅游</span>
+            <form  action="/example/html5/demo_form.asp" method="get">
+                <input class="searchs" type="search" name="user_search" placeholder="请输入..." />
+                <input class="search-btn" type="submit" value="搜索"/>
+            </form>
+            <div class="langs"><i>中</i>/<i>En</i></div>
+        </div>
+
+        <div class="tab-contents" id="boox">
+            <!--走进吉首-->
+            <div >
+                <ul>
+                    <li><a href="../../tabone/gaikuang.html">吉首概括</a></li>
+                    <li><a href="../../tabone/fuhao.html">   吉首符号</a></li>
+                    <li><a href="../../tabone/fengtu.html">  风土人情</a></li>
+                    <li><a href="../../tabone/guwu.html">    苗族鼓舞</a></li>
+                </ul>
+                <ul>
+                    <li> <a href="../../tabone/jieqing.html">节庆活动</a></li>
+                    <li> <a href="../../tabone/meili.html">  美丽吉首</a></li>
+                </ul>
+                <img src="../../../imgs/shouye/j1.png" alt=""/>
+            </div>
+
+            <!--畅玩吉首-->
+            <div >
+                <ul>
+                    <li><a href="../../tabtwo/jingqu0.html">景区</a></li>
+                    <li><a href="../../tabtwo/meishi.html">美食</a></li>
+                    <li><a href="../../tabtwo/zhushu.html">住宿</a></li>
+                    <li><a href="../../tabtwo/yule.html">  娱乐</a></li>
+                </ul>
+                <ul>
+                    <li><a href="../../tabtwo/techan.html">特产</a></li>
+                </ul>
+                <img src="../../../imgs/shouye/j2.png" alt=""/>
+            </div>
+
+            <!--吉首攻略-->
+            <div >
+                <ul>
+                    <li><a href="../tuijian.html">精品推荐</a></li>
+                    <li> <a href="#">交通导航</a></li>
+                    <li> <a href="../youji.html">吉首游记</a></li>
+                    <li> <a href="../zhixun.html">吉首资讯</a></li>
+                </ul>
+                <img src="../../../imgs/shouye/j3.png" alt=""/>
+            </div>
+            <!--吉首服务-->
+            <div >
+                <ul>
+                    <li><a href="#"> 咨询电话  </a></li>
+                    <li><a href="#"> 投诉电话  </a></li>
+                    <li><a href="#"> 火车票    </a></li>
+                    <li><a href="#"> 飞机票    </a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">天气   </a> </li>
+                    <li><a href="../../tabfour/toushu.html">在线投诉</a></li>
+                </ul>
+                <img src="../../../imgs/shouye/j4.png" alt=""/>
+            </div>
+            <!--在线旅游-->
+            <div >
+                <ul>
+                    <li>  <a href="#">VR</a></li>
+                </ul>
+                <img src="../../../imgs/shouye/j5.png" alt=""/>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<!--  /头部区域 -->
+
+<!--banner图片-->
+<section class="banner">
+
+</section>
+<!-- 游记 -->
+
+<section>
+<div class="travel-box container">
+    <h2>撰写游记</h2>
+
+        <form class="normalForm" id="addGuide" action="../youji.html" method="post" onsubmit="return checkAllFields(this);">
+
+                <input type="text" id="name" name="name" value="" title="游记名称" maxlength="200" placeholder="请输入游记标题" class="input-txt3">
+
+
+            <div class="hero-unit">
+                <div class="btn-toolbar" data-role="editor-toolbar" data-target="#editor">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" title="字体"><i class="icon-font"></i><b class="caret"></b></a>
+
+                        <ul class="dropdown-menu">
+
+
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" title="字号"><i class="icon-text-height"></i>&nbsp;<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a data-edit="fontSize 5"><font size="5">大</font></a></li>
+                            <li><a data-edit="fontSize 3"><font size="3">中</font></a></li>
+                            <li><a data-edit="fontSize 1"><font size="1">小</font></a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn" data-edit="bold" title="加粗"><i class="icon-bold"></i></a>
+                        <a class="btn" data-edit="italic" title="斜体"><i class="icon-italic"></i></a>
+                        <a class="btn" data-edit="strikethrough" title="删除线"><i class="icon-strikethrough"></i></a>
+                        <a class="btn" data-edit="underline" title="下划线"><i class="icon-underline"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn" data-edit="justifyleft" title="左对齐"><i class="icon-align-left"></i></a>
+                        <a class="btn" data-edit="justifycenter" title="居中"><i class="icon-align-center"></i></a>
+                        <a class="btn" data-edit="justifyright" title="右对齐"><i class="icon-align-right"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" title="添加链接"><i class="icon-link"></i></a>
+                        <div class="dropdown-menu input-append">
+                            <input class="span2" placeholder="URL" type="text" data-edit="createLink"/>
+                            <button class="btn" type="button">添加</button>
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <a class="btn" title="图片" id="pictureBtn"><i class="icon-picture"></i></a>
+                        <input type="file" data-role="magic-overlay" data-target="#pictureBtn" data-edit="insertImage" />
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn" data-edit="undo" title="撤消"><i class="icon-undo"></i></a>
+                        <a class="btn" data-edit="redo" title="还原"><i class="icon-repeat"></i></a>
+                    </div>
+                    <input type="text" data-edit="inserttext" id="voiceBtn" x-webkit-speech="">
+                </div>
+                <div id="editor">
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="提&nbsp&nbsp&nbsp交"  class="btn_blue">
+            </div>
+        </form>
+
+</div>
+
+
+
+</section>
+
+
+<!-- 结尾 -->
+<footer class="jieshu  clearfix">
+    <div class="container">
+        <div class="logo"><a href="../../../index.html"><img src="../../../imgs/shouye/logotop.png" alt=""></a></div>
+        <div class="footer_tel">
+            <ul class="tel">
+                <h4>联系我们</h4>
+                <li>邮箱：88888888@163.com</li>
+                <li>咨询电话：888888888</li>
+                <li>版权所有</li>
+            </ul>
+            <ul class="qq">
+                <li>QQ：88888888</li>
+                <li><a href="www.jishou.com">网址：www.jishou.com</a></li>
+                <li>吉首旅游局</li>
+            </ul>
+        </div>
+        <div class="weixin"><a href="#"><img src="../../../imgs/shouye/weixin.png" alt=""></a></div>
+    </div>
+</footer>
+</body>
+    <script>
+    $(function(){
+        function initToolbarBootstrapBindings() {
+            var fonts = ['Serif', 'Sans', 'Arial', 'Arial Black', 'Courier',
+                        'Courier New', 'Comic Sans MS', 'Helvetica', 'Impact', 'Lucida Grande', 'Lucida Sans', 'Tahoma', 'Times',
+                        'Times New Roman 宋体', 'Verdana'],
+                    fontTarget = $('[title=字体]').siblings('.dropdown-menu');
+            $.each(fonts, function (idx, fontName) {
+                fontTarget.append($('<li><a data-edit="fontName ' + fontName +'" style="font-family:\''+ fontName +'\'">'+fontName + '</a></li>'));
+            });
+            $('a[title]').tooltip({container:'body'});
+            $('.dropdown-menu input').click(function() {return false;})
+                    .change(function () {$(this).parent('.dropdown-menu').siblings('.dropdown-toggle').dropdown('toggle');})
+                    .keydown('esc', function () {this.value='';$(this).change();});
+
+            $('[data-role=magic-overlay]').each(function () {
+                var overlay = $(this), target = $(overlay.data('target'));
+                overlay.css('opacity', 0).css('position', 'absolute').offset(target.offset()).width(target.outerWidth()).height(target.outerHeight());
+            });
+            if ("onwebkitspeechchange"  in document.createElement("input")) {
+                var editorOffset = $('#editor').offset();
+                $('#voiceBtn').css('position','absolute').offset({top: editorOffset.top, left: editorOffset.left+$('#editor').innerWidth()-35});
+            } else {
+                $('#voiceBtn').hide();
+            }
+        };
+        function showErrorAlert (reason, detail) {
+            var msg='';
+            if (reason==='unsupported-file-type') { msg = "Unsupported format " +detail; }
+            else {
+                console.log("error uploading file", reason, detail);
+            }
+            $('<div class="alert"> <button type="button" class="close" data-dismiss="alert">&times;</button>'+
+                    '<strong>File upload error</strong> '+msg+' </div>').prependTo('#alerts');
+        };
+        initToolbarBootstrapBindings();
+        $('#editor').wysiwyg({ fileUploadError: showErrorAlert} );
+        window.prettyPrint && prettyPrint();
+    });
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-37452180-6', 'github.io');
+    ga('send', 'pageview');
+</script>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "http://connect.facebook.net/en_GB/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+
+
+<script>
+/*nav导航栏*/
+    function fun(obj,a) {
+        var header=document.getElementById("header")
+        var tegle = document.getElementById(obj);
+        var box = document.getElementById(a);
+        var spns = tegle.getElementsByTagName("span");
+        var lis = box.getElementsByTagName("div");
+        for (i = 0; i < spns.length; i++) {
+            spns[i].index = i;
+            spns[i].onmouseover = function () {
+                for (i = 0; i < spns.length; i++) {
+                    spns[i].className = "";
+                    lis[i].className = "";
+                }
+                ;
+                this.className = "bom";
+                console.log(this.index);
+                lis[this.index].className = "dis-black";
+            };
+            lis[i].onmouseover = function () {
+                for (i = 0; i < lis.length; i++) {
+                    lis[i].className = "";
+                };
+                this.className = "dis-black";
+            }
+            header.onmouseout = function () {
+                for (i = 0; i < lis.length; i++) {
+                    lis[i].className = "";
+                }
+            }
+        }
+    }
+    fun("nav","boox");
+</script>
+</html>

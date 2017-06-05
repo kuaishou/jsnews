@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/*公用属性*/
+
+.banner{
+    height: 380px;
+    width: 100%;
+    background-color: #03adea;
+}
+
+
+
+/*游记*/
+.youji .logo{
+    width: 144px;
+    height: 116px;
+    margin: 40px auto 0;
+}
+
+.youji .left{
+    float: left;
+    width: 900px;
+}
+.youji .left .content{
+    height: 164px;
+    width: 100%;
+    margin-top: 40px;
+}
+.youji .left .content .up{
+    height: 50px;
+
+}
+.youji .left .content .up .icon{
+    height: 50px;
+    width: 140px;
+    float: left;
+}
+.youji .left .content .up .icon-1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #2d7aca;
+    float: left;
+}
+.youji .left .content .up span{
+    margin-left: 18px;
+    line-height: 50px;
+    font-size: 12px;
+    color: #a1a1a1;
+
+}
+
+
+
+.youji .left .content .up .title{
+    float: left;
+    height: 50px;
+    margin-left: 150px;
+    line-height: 50px;
+}
+.youji .left .content .up .title .dd{
+    margin-left: 30px;
+    float: left;
+}
+.youji .left .content .up .title .icon-2{
+    height: 14px;
+    width: 14px;
+    border-radius: 14px;
+    background-color: #e3e3e3;
+    float: left;
+    margin-top: 18px;
+}
+.youji .left .content .up .title  span{
+    margin-left: 8px;
+    line-height: 50px;
+    color: #a1a1a1;
+}
+/*文字介绍*/
+.youji .left .content .down{
+    height: 114px;
+    padding-left: 60px;
+
+}
+.youji .left .content .down .list{
+    margin-top: 10px;
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+.youji .left .content .down .list a{
+    font-size: 18px;
+    font-family: Microsoft Yahei;
+    line-height: 36px;
+    color: #666666;
+    font-weight:800;
+
+}
+.youji .left .content .down .list p{
+    width: 600px;
+    height: 60px;
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+.youji .left .content .down img{
+    height: 100px;
+    width: 160px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.youji .left .bill img{
+    width: 850px;
+    height: 100px;
+    background-color: #122b40;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.youji .right{
+    width: 260px;
+    height: 1000px;
+    float: right;
+}
+
+.youji .right a {
+    display: block;
+    height: 35px;
+    width: 180px;
+    margin: 0 auto;
+    border: 1px solid palegoldenrod;
+}
+.youji .right .imgs{
+    height: 170px;
+    width: 240px;
+    margin: 30px auto;
+}
+.youji .right .pinglun{
+    width: 240px;
+    margin: 10px auto;
+}
+.youji .right .pinglun{
+    font-size: 16px;
+    color: #666666;
+}
+.youji .right .pinglun .lis{
+    margin-top: 20px;
+}
+.youji .right .pinglun .lis img{
+    height: 30px;
+    width: 28px;
+    float: left;
+
+
+
+}
+.youji .right .pinglun .lis p{
+
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}

@@ -1,0 +1,540 @@
+@charset "UTF-8";
+.w-slider {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 640px;
+    position: relative;
+    /* overflow: hidden;*/
+}
+.slider {
+    width: 100%;
+    height:  640px;
+     overflow: hidden;
+
+}
+.slider-main {
+    width: 300%;
+    height: 640px;
+}
+.slider-main-img {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 100%;
+    height: 640px;
+}
+.slider-main-img  a .one{
+    background: url(../imgs/shouye/banner.png) no-repeat center center;
+    width:100%;
+    height:640px;
+    background-size: cover;
+}
+.slider-main-img  a .two{
+    background: url(../imgs/shouye/banner1.png) no-repeat center center;
+    width:100%;
+    height:640px;
+    background-size: cover;
+}
+.slider-main-img  a .three{
+    background: url(../imgs/shouye/banner.png) no-repeat center center;
+    width:100%;
+    height:640px;
+    background-size: cover;
+}
+.slider-ctrl {
+    position: absolute;
+    height: 100px;
+    top: 300px;
+    left: 100px;
+    width: 90%;
+    text-align: center;
+
+}
+#slider_ctrl .slider-ctrl-con {
+    width: 50px;
+    height: 6px;
+    display:inline-block;
+    margin: 300px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #ffffff;
+    text-indent: -20em;
+    overflow: hidden;
+}
+#slider_ctrl .current {
+    background-color: #f29907;
+}
+
+
+
+.slider-ctrl-prev {
+    left: -35px;
+}
+
+ .slider-ctrl-next {
+    right: 35px;
+}
+
+.slider-ctrl-prev,
+.slider-ctrl-next  {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 30px;
+    height: 35px;
+    color: #fff;
+    font: 500 50px/62px "宋体";
+    cursor: pointer;
+    opacity: 0.8;
+
+
+}
+
+
+/*吉首新闻*/
+#jsxw {
+    margin-right: auto;
+    margin-left: auto;
+}
+#jsxw> .container{
+  border-bottom: 1px dashed #aecee1;
+    padding: 20px 0;
+    padding-left:100px ;
+}
+
+#jsxw> .container > .box {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+#jsxw > .container > .box > .box-news{
+            float: left;
+            height: 30px;
+            width: 570px;
+            position: relative;
+            overflow: hidden;
+}
+#jsxw > .container > .box > .box-news >  .ull{
+            height: 120px;
+            width: 570px;
+            position: absolute;
+            top: 0;
+            left: 0;
+}
+#jsxw > .container > .box >.box-news> .ull> li{
+            list-style: none;
+            height: 30px;
+            line-height: 30px;
+            width: 570px;
+            margin-left: 30px;
+}
+
+#jsxw > .container > .box > span{
+   margin-left: 40px;
+}
+#jsxw > .container > .box > a {
+  display:inline-block;
+  height: 20px;
+  width: 70px;
+  background-color: #f29907;
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+  margin-left: 60px;
+  border-radius: 10px;
+  border-bottom: 1px dashed #e92322;
+
+}
+#jsxw> .container > .box > a:hover {
+  text-decoration: none;
+}
+
+
+
+/* 特色 */
+#tese {
+    background: url('../imgs/shouye/bg.png') 0 0 no-repeat;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow:hidden ;
+}
+
+#tese > .container > div{
+  margin-top: 70px;
+  float: left;
+}
+
+#tese > .container .gomhlue-right{
+    width: 520px;
+    height: 700px;
+    margin-left: 140px;
+    text-align: center;
+    padding: 20px;
+
+}
+#tese > .container .gomhlue-right h4{
+
+    font-family: Microsoft Yahei;
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 15px;
+    margin-left: 140px;
+    color: #666666;
+    text-align:justify;
+}
+
+#tese > .container .gomhlue-right p{
+    height: 300px;
+     margin-top: 40px;
+     font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 30px;
+    padding-top: 15px;
+    color: #666666;
+    text-align:justify;
+}
+#tese > .container .gomhlue-right a{
+    display:inline-block;
+    height: 26px;
+    width: 100px;
+    background-color: #f29907;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 13px;
+}
+
+
+/*行程介绍*/
+.xingceng{
+    height: 680px;
+    background: url('../imgs/shouye/bg.png') 0 0 no-repeat;
+    background-color: #f5f5f5;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.xingceng .container .xingceng_new{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #333333;
+}
+.xingceng .container .xingceng_new h2{
+    letter-spacing: 6px;
+}
+.xingceng .container .xingceng_new p{
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+.xingceng .container .xingceng_img{
+    position: relative;
+}
+.xingceng .container .xingceng_img .row{
+    height: 420px;
+    width: 100%;
+}
+.xingceng .container .xingceng_img .row div{
+    position: relative;
+    height: 420px;
+    width: 280px;
+    float: left;
+}
+.xingceng .container .xingceng_img .row .lef {
+    margin-left: 10px;
+
+}
+.xingceng .container .xingceng_img .row div a{
+   position: absolute;
+    top: 356px;
+    left: 14px;
+    display: block;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(225,255,255,0.6);
+    line-height: 40px;
+    letter-spacing: 4px;
+
+}
+
+.xingceng .container .xingceng_img .left{
+    left: -35px;
+}
+.xingceng .container .xingceng_img .right{
+    right: -16px;
+}
+
+/* 风景透视窗 */
+.toushi .toushi-eyes{
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    overflow:hidden;
+    text-align: center;
+}
+.toushi .toushi-eyes .new{
+    float: right;
+    width: 350px;
+    height: 200px;
+    margin-right: 430px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.toushi .toushi-eyes .new h4{
+
+    font-family: Microsoft Yahei;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align:justify;
+}
+
+.toushi .toushi-eyes .new p{
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 30px;
+    padding-top: 15px;
+    color: #ffffff;
+    text-align:justify;
+}
+.toushi .toushi-eyes .new a{
+    display:inline-block;
+    margin-top: 30px;
+    height: 26px;
+    width: 100px;
+    background-color: #f29907;
+    color: #ffffff;
+    line-height: 26px;
+    border-radius: 13px;
+}
+/* 特色景点 */
+.teshe{
+    background: url('../imgs/shouye/bg.png') 0 0 no-repeat;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.teshe >.container > .teshe_new{
+    padding-top: 50px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+.teshe >.container > .teshe_new h2{
+    color: #6a6a6a;
+    height: 40px;
+    line-height: 40px;
+    color: #6a6a6a;
+    letter-spacing: 6px;
+}
+.teshe >.container > .teshe_new > a{
+    margin-top: 20px;
+    display: inline-block;
+    height: 26px;
+    width: 140px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    background-color: #f29907;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 13px;
+}
+
+
+.teshe .container .teshe_img .rit-img{
+    position: relative;
+}
+.teshe .container .teshe_img .rit-img a{
+    position: absolute;
+    top: 136px;
+    left: 10px;
+    display: block;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(225,255,255,0.6);
+    line-height: 40px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.teshe .container .teshe_img .rit-img .to{
+    top: 154px;
+}
+.teshe .container .teshe_img .left{
+    height: 361px;
+    width: 380px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+.teshe .container .teshe_img .left a{
+    position: absolute;
+    top: 310px;
+    left: 54px;
+    display: block;
+    height: 40px;
+    width: 270px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(225,255,255,0.6);
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.teshe .container .teshe_img .right .rit-img{
+    height: 170px;
+    width: 170px;
+    float: left;
+    margin-left: 18px;
+}
+
+.teshe .container .teshe_img .right .top{
+    margin-top: 18px;
+}
+
+
+/* 特色美食 */
+.meishi{
+    width: 100%;
+    height: 600px;
+    background: url('../imgs/shouye/bg.png') 0 0 no-repeat;
+    background-color: #f5f5f5;
+    margin-right: auto;
+    margin-left: auto;
+}
+.meishi .container .meishi_new{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.meishi  .container .meishi_new h2{
+    height: 40px;
+    line-height: 40px;
+    color: #6a6a6a;
+    letter-spacing: 6px;
+}
+.meishi .container .meishi_new > a{
+    margin-top: 20px;
+    display: inline-block;
+    height: 26px;
+    width: 140px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    background-color: #f29907;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 13px;
+}
+.meishi .container .meishi-img{
+    width: 1000px;
+    text-align: center;
+    padding: 20px 0 0 20px;
+    margin: 0 auto;
+
+}
+.meishi .container .meishi-img a{
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin:0 20px 20px 0;
+    width: 310px;
+    height: 190px;
+}
+    /* 山 */
+.shan{
+    height: 660px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* 旅游评价 */
+
+.pingjia{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pingjia .container .pingjia_new{
+    margin-top: 120px;
+    text-align: center;
+}
+.pingjia .container .pingjia_new h2{
+    color: #6a6a6a;
+    letter-spacing: 20px;
+}
+
+.pingjia .container  .pingjia_words{
+    margin-top: 46px;
+}
+.pingjia .container  .pingjia_words ul li{
+    list-style: none;
+    height: 150px;
+    width: 100%;
+    margin-top: 16px;
+}
+.pingjia .container  .pingjia_words ul li .wenzhi{
+    float: left;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-family: Microsoft Yahei;
+
+}
+.pingjia .container  .pingjia_words ul p{
+    width: 710px;
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+}
+.pingjia .container  .pingjia_words ul li .wenzhi .icon{
+    margin-top: 6px;
+    height: 60px;
+    width: 320px;
+
+
+}
+.pingjia .container  .pingjia_words ul li .wenzhi .icon .icon-1{
+    float: left;
+    height: 32px;
+    width: 32px;
+    margin-left: 4px;
+    margin-top: 10px;
+
+
+}
+.pingjia .container  .pingjia_words ul li .wenzhi .icon span{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom:1px solid #e1e5de;
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.pingjia .container  .pingjia_words ul .wenzhi-img{
+    float: right;
+}
+
+
+
+
+.backimg{
+    margin-right: auto;
+    margin-left: auto;
+    height: 478px;
+    text-align: center;
+}
+.backimg img{
+}

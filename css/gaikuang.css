@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/*公用属性*/
+.biude{
+    display:block;
+    height: 30px;
+    width: 132px;
+    margin: 50px auto 30px;
+    background-color: #ff6239;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.banner{
+    height: 384px;
+    width: 100%;
+    background-color: #03adea;
+    margin-top: 30px;
+}
+/*概况*/
+.gaikuang .logo{
+    width: 144px;
+    height: 116px;
+    margin: 40px auto 0;
+
+}
+/*地理*/
+.gaikuang .dili{
+    height: 280px;
+    width: 100%;
+}
+.gaikuang .dili .content{
+    height: 200px;
+    width: 100%;
+
+}
+.gaikuang .dili .content .wenzhi{
+    width: 900px;
+    float: left;
+
+
+}
+.gaikuang .dili .content .wenzhi p{
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 28px;
+    padding-top: 15px;
+    color: #000;
+    text-indent: 2em;
+}
+.gaikuang .dili .content img{
+    float: left;
+    height: 160px;
+    width: 240px;
+    padding-top: 24px;
+    margin-left: 20px;
+}
+
+/*地理气候*/
+
+.qihou .content .mdl{
+    margin-left: 10px;
+}
+
+.qihou .content  p{
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 28px;
+    padding-top: 15px;
+    color: #000;
+    text-indent: 2em;
+}
+
+
+/*民族特色*/
+.gaikuang .minzu{
+    height: 200px;
+    width: 100%;
+}
+
+.gaikuang .minzu .content .wenzhi{
+    width: 900px;
+    float: left;
+
+
+}
+.gaikuang .minzu .content .wenzhi p{
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 28px;
+    padding-top: 15px;
+    color: #000;
+    text-indent: 2em;
+}
+.gaikuang .minzu .content img{
+    float: left;
+    height: 120px;
+    width: 220px;
+    padding-top: 16px;
+    margin-left: 30px;
+}
+
+/*民族文化*/
+.gaikuang .wenhua{
+    height:760px;
+    width: 100%;
+}
+.gaikuang .wenhua .title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gaikuang .wenhua .content{
+    height: 120px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.gaikuang .wenhua .content .wenzhi{
+    width: 900px;
+    float: right;
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 28px;
+    color: #000;
+    text-indent: 2em;
+}
+.gaikuang .wenhua .content img{
+    float: left;
+    height: 120px;
+    width: 220px;
+}

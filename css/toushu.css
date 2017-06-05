@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/*公用属性*/
+.biude{
+    display:block;
+    height: 30px;
+    width: 132px;
+    margin: 40px auto;
+    background-color: #ff6239;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.banner{
+    height: 380px;
+    width: 100%;
+    background-color: #03adea;
+}
+
+/*投诉建议*/
+.toushu{
+    width: 1160px;
+
+}
+.toushu .toushu-title{
+    height: 50px;
+    width: 280px;
+    margin: 40px auto;
+}
+.toushu .toushu-title h4{
+    float: left;
+    font-size: 30px;
+    font-family: Microsoft Yahei;
+    line-height: 50px;
+    margin-right: 10px;
+    color: #666666;
+}
+.toushu .toushu-title img{
+    float: left;
+}
+
+/*tex文本框*/
+
+
+ .toushu .msgTxt {
+    display: block;
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    font-family: Microsoft Yahei;
+    font-size: 16px;
+    border: 1px solid #a1a1a1;
+    /*outline:none;
+    resize:none;
+    text-align: left;*/
+  }
+.toushu .ipt{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+/*
+.toushu .ipt input{
+
+    width: 230px;
+    border: 1px solid #a1a1a1;
+    margin-top: 40px;
+    font-family: Microsoft Yahei;
+    font-size: 16px;
+
+
+
+}*/
+ .uinArea {
+    height: 60px;
+    position: relative;
+    z-index: 10;
+}
+.input-tips {
+    float: left;
+    margin-top: 10px;
+    width: 100px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 42px;
+    font-family: Microsoft Yahei;
+}
+.inputOuter {
+    width: 200px;
+    height: 42px;
+    margin-top: 10px;
+    float: left;
+}
+.pwdArea {
+    height: 55px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 3;
+}
+.pwdArea span{
+    display: inline-block;
+    height: 12px;
+    margin-bottom: 0;
+    font-family: Microsoft Yahei;
+    font-size: 12px;
+}
+.inputstyle {
+    width: 230px;
+    height: 38px;
+    padding-left: 5px;
+    line-height: 30px;
+    line-height: 38px;
+    border-bottom: 1px solid #a1a1a1;
+    background: #fff;
+    color: #333;
+    border-radius: 2px;
+    font-family: Verdana,Tahoma,Arial;
+    font-size: 16px;
+    ime-mode: disabled;
+}
+.button_blue {
+    display: inline-block;
+    float: left;
+    width: 124px;
+    height: 40px;
+   margin-left: 300px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background: #2795dc;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    font-family: Microsoft Yahei;
+}

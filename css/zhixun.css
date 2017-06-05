@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+/*公用属性*/
+
+.banner{
+    height: 380px;
+    width: 100%;
+    background-color: #03adea;
+}
+
+
+
+/*游记*/
+.youji .logo{
+    width: 144px;
+    height: 116px;
+    margin: 40px auto 0;
+}
+
+.youji .left{
+    float: left;
+    width: 900px;
+}
+.youji .left .content{
+    height: 140px;
+    width: 100%;
+    margin-top: 30px;
+}
+.youji .left .content h4{
+    font-size: 18px;
+    font-family: "Microsoft Yahei";
+    color: #666666;
+
+}
+.youji .left .content .down{
+    height: 114px;
+    margin-top: 10px;
+
+}
+.youji .left .content .down img{
+    height: 100px;
+    width: 160px;
+    float: left;
+}
+.youji .left .content .down .list{
+    margin-top: 10px;
+    width: 580px;
+    height: 100px;
+    float: left;
+
+}
+
+.youji .left .content .down .list p{
+    width: 580px;
+    height: 60px;
+    margin-left: 30px;
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+
+
+
+
+
+.youji .left .content .up{
+    height: 20px;
+
+}
+.youji .left .content .up .icon{
+    width: 140px;
+    float: left;
+}
+.youji .left .content .up .icon-1{
+
+    width: 50px;
+    border-radius: 50px;
+    background-color: #2d7aca;
+    float: left;
+}
+.youji .left .content .up span{
+    margin-left: 18px;
+    line-height: 50px;
+    font-size: 12px;
+    color: #a1a1a1;
+
+}
+
+
+
+.youji .left .content .up .title{
+    margin-top: -18px;
+    float: right;
+}
+.youji .left .content .up .title .dd{
+    margin-left: 30px;
+    float: left;
+}
+.youji .left .content .up .title  span{
+    margin-left: 8px;
+    color: #a1a1a1;
+}
+/*文字介绍*/
+
+
+
+.youji .right{
+    width: 260px;
+    float: right;
+}
+
+.youji .right a {
+    display: block;
+    height: 35px;
+    width: 180px;
+    margin: 0 auto;
+    border: 1px solid palegoldenrod;
+}
+.youji .right .imgs{
+    height: 170px;
+    width: 240px;
+    margin: 30px auto;
+}
+.youji .right .pinglun{
+    width: 240px;
+    margin: 10px auto;
+}
+.youji .right .pinglun{
+    font-size: 16px;
+    color: #666666;
+}
+.youji .right .pinglun .lis{
+    margin-top: 20px;
+}
+.youji .right .pinglun .lis img{
+    height: 30px;
+    width: 28px;
+    float: left;
+}
+.youji .right .pinglun .lis p{
+
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+
+
+.jiamo {
+    width: 844px;
+    height: 44px;
+    margin: 40px auto 0;
+}
+
+ .jiamo a {
+    display: block;
+    cursor: auto;
+    height: 44px;
+    text-decoration: none;
+    background-color: #080808;
+    width: 844px;
+    background-color: #f8f8f8;
+    border: 1px solid #d1d1d1;
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+}

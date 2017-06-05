@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/*公用属性*/
+.biude{
+    display:block;
+    height: 30px;
+    width: 132px;
+    margin: 40px auto 10px;
+    background-color: #ff6239;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.banner{
+    height: 380px;
+    width: 100%;
+}
+
+.boo{
+    width: 100%;
+
+}
+/*概况*/
+.meishi .logo{
+    width: 144px;
+    height: 116px;
+    margin: 40px auto 0;
+
+}
+.meishi .jiudian{
+    height: 350px;
+    width: 276px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 14px;
+}
+.meishi .jiudian img{
+    height: 260px;
+    width: 276px;
+}
+.meishi .jiudian .modo{
+    border: 1px solid #b1b1b1;
+    border-top: none;
+    height: 73px;
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 16px;
+
+}
+.meishi .jiudian .modo span{
+    float: right;
+    margin-right: 10px;
+}
+.meishi .jiudian .modo h4{
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 30px;
+    color: #02adea;
+    margin-left: 24px;
+}
+.meishi .jiudian .modo p{
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 24px;
+}
+
+/*加载更多*/
+
+.meishi .jiamo{
+    width: 844px;
+    height: 44px;
+    margin: 40px auto 0;
+}
+.meishi .jiamo a{
+    display: block;
+    cursor:auto;
+    height: 44px;
+    text-decoration: none;
+    background-color: #080808;
+    width: 844px;
+    background-color: #f8f8f8;
+    border: 1px solid #d1d1d1;
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    margin: 40px auto 100px;
+}
+
+/*
+.jiamo{
+    height: 44px;
+    width: 100%;
+
+}
+.jiamo button{
+    height: 44px;
+    width: 844px;
+    background-color: #f8f8f8;
+    border: 1px solid #d1d1d1;
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    margin: 40px auto 100px;
+}
+*/

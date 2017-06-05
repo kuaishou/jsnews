@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/*公用属性*/
+.biude{
+    display:block;
+    height: 30px;
+    width: 132px;
+    margin: 40px auto;
+    background-color: #ff6239;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.banner{
+    height: 380px;
+    width: 100%;
+    background-color: #03adea;
+}
+/*概况*/
+.fengtu .logo{
+    width: 144px;
+    height: 116px;
+    margin: 40px auto 0;
+
+}
+/*地理*/
+
+.fengtu .fengqing{
+    width: 100%;
+}
+.fengtu .fengqing .content{
+    height: 200px;
+    width: 100%;
+
+}
+.fengtu .fengqing .content .wenzhi{
+    width: 800px;
+    float: left;
+
+
+}
+.fengtu .fengqing .content .wenzhi p{
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 30px;
+    padding-top: 15px;
+    color: #666666;
+    text-align:justify;
+}
+.fengtu .fengqing .content img{
+    float: left;
+    height: 220px;
+    width: 320px;
+}
+
+/*地理气候*/
+
+.qihou .content .mdl{
+    margin-left: 10px;
+}
+.qihou .content{
+    height: 130px;
+    width: 890px;
+    margin: 26px auto 0;
+}
+.qihou .content img{
+    height: 130px;
+    width: 210px;
+}
+.qihou   p{
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 30px;
+    color: #666666;
+    text-align:justify;
+}
+
+
+/*地理*/
+
+.fengtu .shipin{
+    width: 100%;
+}
+.fengtu .shipin .content{
+    height: 200px;
+    width: 100%;
+
+}
+.fengtu .shipin .content .wenzhi{
+    width: 100%;
+}
+.fengtu .shipin .content .wenzhi p{
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    line-height: 30px;
+    padding-top: 15px;
+    color: #666666;
+    text-align:justify;
+}
+.fengtu .shipin .vid{
+
+    height: 260px;
+    width: 870px;
+    background-color: pink;
+    margin: 30px auto 10px;
+
+}
+
+
